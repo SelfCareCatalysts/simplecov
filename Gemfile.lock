@@ -1,4 +1,10 @@
 GIT
+  remote: https://github.com/aashishsaini/simplecov-html.git
+  revision: e4865b1ebbff24dbb3e7c5041088540409a87cb0
+  specs:
+    simplecov-html (0.12.3.1)
+
+GIT
   remote: https://github.com/twalpole/apparition.git
   revision: ca86be4d54af835d531dbcd2b86e7b2c77f85f34
   specs:
@@ -11,7 +17,6 @@ PATH
   specs:
     simplecov (0.22.0)
       docile (~> 1.1)
-      simplecov-html (~> 0.11)
       simplecov_json_formatter (~> 0.1)
 
 GEM
@@ -147,7 +152,6 @@ GEM
     rubocop-ast (1.15.1)
       parser (>= 3.0.1.1)
     ruby-progressbar (1.11.0)
-    simplecov-html (0.12.3)
     simplecov_json_formatter (0.1.3)
     spoon (0.0.6)
       ffi
@@ -189,6 +193,7 @@ DEPENDENCIES
   rspec (~> 3.2)
   rubocop
   simplecov!
+  simplecov-html (~> 0.12.3.1)!
   test-unit
   webrick
 
