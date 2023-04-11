@@ -28,5 +28,5 @@ end
 group :benchmark do
   gem "benchmark-ips"
 end
-
+gem 'simplecov-html', '~> 0.12.3.1', git: 'https://github.com/SelfCareCatalysts/simplecov-html.git'
 gemspec
