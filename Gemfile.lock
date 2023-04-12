@@ -1,10 +1,4 @@
 GIT
-  remote: https://github.com/SelfCareCatalysts/simplecov-html.git
-  revision: de9e8c7281e5ca5c266926c7256a06d8436f18e5
-  specs:
-    simplecov-html (0.12.3.1)
-
-GIT
   remote: https://github.com/twalpole/apparition.git
   revision: ca86be4d54af835d531dbcd2b86e7b2c77f85f34
   specs:
@@ -17,7 +11,7 @@ PATH
   specs:
     simplecov (0.22.0)
       docile (~> 1.1)
-      simplecov-html
+      simplecov-html-formatter (= 0.12.3.1)
       simplecov_json_formatter (~> 0.1)
 
 GEM
@@ -52,7 +46,7 @@ GEM
     childprocess (4.1.0)
     coderay (1.1.3)
     concurrent-ruby (1.2.2)
-    contracts (0.17)
+    contracts (0.16.1)
     cucumber (4.1.0)
       builder (~> 3.2, >= 3.2.3)
       cucumber-core (~> 7.1, >= 7.1.0)
@@ -156,6 +150,7 @@ GEM
     rubocop-ast (1.28.0)
       parser (>= 3.2.1.0)
     ruby-progressbar (1.13.0)
+    simplecov-html-formatter (0.12.3.1)
     simplecov_json_formatter (0.1.4)
     spoon (0.0.6)
       ffi
@@ -196,9 +191,8 @@ DEPENDENCIES
   rspec (~> 3.2)
   rubocop
   simplecov!
-  simplecov-html (~> 0.12.3.1)!
   test-unit
   webrick
 
 BUNDLED WITH
-   2.3.4
+   2.4.7
